@@ -27,7 +27,7 @@ public: Apple();
 class Orange : public Fruit
 {
 public: Orange();
-		Orange();
+		~Orange();
 		void name();
 		void colour();
 };
@@ -35,7 +35,7 @@ public: Orange();
 class Banana : public Fruit
 {
 public: Banana();
-		Banana();
+		~Banana();
 		void name();
 		void colour();
 };
